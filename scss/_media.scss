@@ -99,8 +99,8 @@
     }
     .Favoritos{
         text-align: center;
-        padding-top: 2rem;
-        padding-bottom: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
         width: 100%;
         .Tabla_Favoritos{
             grid-template-columns: 1fr;
@@ -112,13 +112,16 @@
             "Tabla_Favoritos_Frijoles"
             "Tabla_Favoritos_Spaghetti"
             "Tabla_Favoritos_Arroz";
-            row-gap: 1rem;
+            row-gap: 0.5rem;
+            width: 90%;
+            margin: 0 auto;
             .Imagenes_Inicio{
                 opacity: .8;
                 width: $ancho_imagenes*2;
                 height: $alto_imagenes*5;
                 transition: .5s;
                 border-radius: $radio_imagenes;
+                width: 100%;
                 &:hover{
                     opacity: 1;
                     transform: scale(1.05,1.05);
@@ -129,10 +132,11 @@
     .Proximas_Locuras{
         text-align: center;
         width: 100%;
-        padding-top: 3rem;
-        padding-bottom: 2.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
         .Tabla_Locuras{
-            width: 100%;
+            width: 90%;
+            margin: 0 auto;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr 1fr;
@@ -140,12 +144,13 @@
             "Tabla_Locuras_Hamburguesa"
             "Tabla_Locuras_Carne"
             "Tabla_Locuras_Alitas";
-            row-gap: 1rem;
+            row-gap: 0.5rem;
             .Imagenes_Locuras{
                 opacity: .8;
                 width: $ancho_imagenes*2;
                 height: $alto_imagenes*5;
                 border-radius: $radio_imagenes;
+                width: 100%;
                 &:hover{
                     opacity: 1;
                     transform: scale(1.05,1.05);
@@ -156,19 +161,19 @@
     }
     .Footer_Publicidad_Cuadro{
         height: 40vh;
-        width: 100vw;
+        width: 100%;
         margin:0 auto;
         background-color: #EC2127;
         color: white;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-top: 2   rem;
+        margin-top: 2rem;
+        text-align: center;
         .Footer_Publicidad_Imagen{
-            width: 20%;
-            align-items: end;
+            width: 50%;
             .Logo_Publicidad{
-                width: 235px;
+                width: 205px;
                 transition: 0.5s;
                 align-items: flex-end;
                 &:hover{
@@ -176,7 +181,7 @@
             }
         }
         .Footer_Publicidad{
-            width: 65%;
+            width: 50%;
             .Footer_Publicidad_Link{
                 list-style: none;
                 display: flex;
@@ -192,7 +197,7 @@
                     .Didi,
                     .Uber{
                         transition: 0.5s;
-                        padding: 5px 10px;
+                        padding: 2px 10px;
                         &:hover{
                             transform: scale(1.1,1.1);}
                     }
@@ -340,22 +345,24 @@
             padding-bottom: 1rem;
             width: 100%;
             .Tabla_Menu_Izq{
-                padding-top: 1rem;
+                padding-top: 0.5rem;
                 width: 100%;
                 display: flex;
                 flex-direction: column;
                 margin: 0 auto;
                 .Imagen_Menu{
-                    width: 100%;
+                    width: 90%;
+                    margin: 0 auto;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     .Imagenes_Menu{
                         opacity: 1;
                         width: $ancho_imagenes*2;
-                        height: $alto_imagenes*6;
+                        height: $alto_imagenes*5;
                         transition: .5s;
                         border-radius: $radio_imagenes;
+                        width: 100%;
                         &:hover{
                             opacity: 1;
                             transform: scale(1.05,1.05);
@@ -408,22 +415,24 @@
                 }
             }
             .Tabla_Menu_Der{
-                padding-top: 1rem;
+                padding-top: 0.5rem;
                 width: 100%;
                 display: flex;
                 flex-direction: column-reverse;
                 margin: 0 auto;
                 .Imagen_Menu{
-                    width: 100%;
+                    width: 90%;
+                    margin: 0 auto;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     .Imagenes_Menu{
                         opacity: 1;
                         width: $ancho_imagenes*2;
-                        height: $alto_imagenes*6;
+                        height: $alto_imagenes*5;
                         transition: .5s;
                         border-radius: $radio_imagenes;
+                        width: 100%;
                         &:hover{
                             opacity: 1;
                             transform: scale(1.05,1.05);
@@ -475,7 +484,7 @@
                     }
                 }
             }
-        }   
+        }
     }
     /*/ Sucursal.html /*/ 
     .Tabla_Sucursal{
@@ -600,10 +609,10 @@
     }
     /*/ Nuestra_Historia.html /*/ 
     .Tabla_Historia_Der{
-        margin: 10px auto;
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 95%;
+        margin: 0 auto;
         padding: 10px;
         .Imagenes_Historia{
             opacity: .8;
@@ -611,6 +620,7 @@
             height: $alto_imagenes*5;
             transition: .5s;
             border-radius: $radio_imagenes;
+            width: 100%;
             &:hover{
                 opacity: 1;
                 transform: scale(1.05,1.05);
@@ -624,10 +634,10 @@
         }
     }
     .Tabla_Historia_Izq{
-        margin: 10px auto;
         display: flex;
         flex-direction: column-reverse;
         width: 90%;
+        margin: 0 auto;
         padding: 10px;
         .Imagenes_Historia{
             opacity: .8;
@@ -635,6 +645,7 @@
             height: $alto_imagenes*5;
             transition: .5s;
             border-radius: $radio_imagenes;
+            width: 100%;
             &:hover{
                 opacity: 1;
                 transform: scale(1.05,1.05);

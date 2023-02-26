@@ -706,20 +706,23 @@ p {
       margin: 0; }
   .Favoritos {
     text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
     width: 100%; }
     .Favoritos .Tabla_Favoritos {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-areas: "Tabla_Favoritos_Pollo" "Tabla_Favoritos_Quesadillas" "Tabla_Favoritos_Papa" "Tabla_Favoritos_Frijoles" "Tabla_Favoritos_Spaghetti" "Tabla_Favoritos_Arroz";
-      row-gap: 1rem; }
+      row-gap: 0.5rem;
+      width: 90%;
+      margin: 0 auto; }
       .Favoritos .Tabla_Favoritos .Imagenes_Inicio {
         opacity: .8;
         width: 400px;
         height: 250px;
         transition: .5s;
-        border-radius: 10px; }
+        border-radius: 10px;
+        width: 100%; }
         .Favoritos .Tabla_Favoritos .Imagenes_Inicio:hover {
           opacity: 1;
           transform: scale(1.05, 1.05);
@@ -727,45 +730,47 @@ p {
   .Proximas_Locuras {
     text-align: center;
     width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 2.5rem; }
+    padding-top: 1.5rem;
+    padding-bottom: 1rem; }
     .Proximas_Locuras .Tabla_Locuras {
-      width: 100%;
+      width: 90%;
+      margin: 0 auto;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr;
       grid-template-areas: "Tabla_Locuras_Hamburguesa" "Tabla_Locuras_Carne" "Tabla_Locuras_Alitas";
-      row-gap: 1rem; }
+      row-gap: 0.5rem; }
       .Proximas_Locuras .Tabla_Locuras .Imagenes_Locuras {
         opacity: .8;
         width: 400px;
         height: 250px;
-        border-radius: 10px; }
+        border-radius: 10px;
+        width: 100%; }
         .Proximas_Locuras .Tabla_Locuras .Imagenes_Locuras:hover {
           opacity: 1;
           transform: scale(1.05, 1.05);
           border-radius: 1%; }
   .Footer_Publicidad_Cuadro {
     height: 40vh;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
     background-color: #EC2127;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 2   rem; }
+    margin-top: 2rem;
+    text-align: center; }
     .Footer_Publicidad_Cuadro .Footer_Publicidad_Imagen {
-      width: 20%;
-      align-items: end; }
+      width: 50%; }
       .Footer_Publicidad_Cuadro .Footer_Publicidad_Imagen .Logo_Publicidad {
-        width: 235px;
+        width: 205px;
         transition: 0.5s;
         align-items: flex-end; }
         .Footer_Publicidad_Cuadro .Footer_Publicidad_Imagen .Logo_Publicidad:hover {
           transform: scale(1.05, 1.05); }
     .Footer_Publicidad_Cuadro .Footer_Publicidad {
-      width: 65%; }
+      width: 50%; }
       .Footer_Publicidad_Cuadro .Footer_Publicidad .Footer_Publicidad_Link {
         list-style: none;
         display: flex;
@@ -780,7 +785,7 @@ p {
           .Footer_Publicidad_Cuadro .Footer_Publicidad .Footer_Publicidad_Link .Botones_Pedidos .Didi,
           .Footer_Publicidad_Cuadro .Footer_Publicidad .Footer_Publicidad_Link .Botones_Pedidos .Uber {
             transition: 0.5s;
-            padding: 5px 10px; }
+            padding: 2px 10px; }
             .Footer_Publicidad_Cuadro .Footer_Publicidad .Footer_Publicidad_Link .Botones_Pedidos .Rappi:hover,
             .Footer_Publicidad_Cuadro .Footer_Publicidad .Footer_Publicidad_Link .Botones_Pedidos .Didi:hover,
             .Footer_Publicidad_Cuadro .Footer_Publicidad .Footer_Publicidad_Link .Botones_Pedidos .Uber:hover {
@@ -900,22 +905,24 @@ p {
     padding-bottom: 1rem;
     width: 100%; }
     .Menu .Tabla_Menu .Tabla_Menu_Izq {
-      padding-top: 1rem;
+      padding-top: 0.5rem;
       width: 100%;
       display: flex;
       flex-direction: column;
       margin: 0 auto; }
       .Menu .Tabla_Menu .Tabla_Menu_Izq .Imagen_Menu {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: center; }
         .Menu .Tabla_Menu .Tabla_Menu_Izq .Imagen_Menu .Imagenes_Menu {
           opacity: 1;
           width: 400px;
-          height: 300px;
+          height: 250px;
           transition: .5s;
-          border-radius: 10px; }
+          border-radius: 10px;
+          width: 100%; }
           .Menu .Tabla_Menu .Tabla_Menu_Izq .Imagen_Menu .Imagenes_Menu:hover {
             opacity: 1;
             transform: scale(1.05, 1.05);
@@ -958,22 +965,24 @@ p {
               .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios .Cantidad_Pedido button:hover {
                 transform: scale(1.1, 1.1); }
     .Menu .Tabla_Menu .Tabla_Menu_Der {
-      padding-top: 1rem;
+      padding-top: 0.5rem;
       width: 100%;
       display: flex;
       flex-direction: column-reverse;
       margin: 0 auto; }
       .Menu .Tabla_Menu .Tabla_Menu_Der .Imagen_Menu {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: center; }
         .Menu .Tabla_Menu .Tabla_Menu_Der .Imagen_Menu .Imagenes_Menu {
           opacity: 1;
           width: 400px;
-          height: 300px;
+          height: 250px;
           transition: .5s;
-          border-radius: 10px; }
+          border-radius: 10px;
+          width: 100%; }
           .Menu .Tabla_Menu .Tabla_Menu_Der .Imagen_Menu .Imagenes_Menu:hover {
             opacity: 1;
             transform: scale(1.05, 1.05);
@@ -1123,17 +1132,18 @@ p {
           padding: 15px; }
   /*/ Nuestra_Historia.html /*/
   .Tabla_Historia_Der {
-    margin: 10px auto;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 95%;
+    margin: 0 auto;
     padding: 10px; }
     .Tabla_Historia_Der .Imagenes_Historia {
       opacity: .8;
       width: 400px;
       height: 250px;
       transition: .5s;
-      border-radius: 10px; }
+      border-radius: 10px;
+      width: 100%; }
       .Tabla_Historia_Der .Imagenes_Historia:hover {
         opacity: 1;
         transform: scale(1.05, 1.05);
@@ -1143,17 +1153,18 @@ p {
       justify-content: center;
       width: 100%; }
   .Tabla_Historia_Izq {
-    margin: 10px auto;
     display: flex;
     flex-direction: column-reverse;
     width: 90%;
+    margin: 0 auto;
     padding: 10px; }
     .Tabla_Historia_Izq .Imagenes_Historia {
       opacity: .8;
       width: 400px;
       height: 250px;
       transition: .5s;
-      border-radius: 10px; }
+      border-radius: 10px;
+      width: 100%; }
       .Tabla_Historia_Izq .Imagenes_Historia:hover {
         opacity: 1;
         transform: scale(1.05, 1.05);
