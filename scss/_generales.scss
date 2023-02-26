@@ -1,0 +1,30 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(15, 14, 14, 0.89);
+    background-color: white;
+}
+h1{
+    font-size: $Letra_h1;
+    padding: 0.6rem;
+    margin: 0 auto;
+    width: 100%;
+}
+h2{
+    font-size: $Letra_h2;
+    padding: 0.8rem;
+    text-align: center;
+}
+h3{
+    font-size: $Letra_h3;
+    padding: 0.4rem;
+}
+h4{
+    font-size: $Letra_h4;
+    padding: 0.4rem;
+}
+p{
+    font-size: $Letra_p;
+    padding: 0.4rem;
+    line-height: 1.2;
+    margin: 0;
+}

@@ -1,0 +1,47 @@
+.Barra_Principal{
+    width: 100%;
+    height: auto;
+    .navbar{
+        height: 80px;
+        .navbar-nav{
+            align-items: center;
+            width: 90%;
+            margin: 0 auto;
+            border-radius: 10px;
+            justify-content: flex-end;
+            background-color: #EC2127;
+            a{
+                color: #FFF;
+                padding: 10px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                transition: 0.5s;
+                &:hover{
+                    color: rgb(255, 255, 0);
+                    transform: scale(1.05,1.05);}
+            }
+        }
+        .Tabla_Redes_Barra{
+            display: flex;
+            .Facebook,
+            .Twitter,
+            .TikTok,
+            .YouTube{
+                transition: 0.5s;
+                width: 50px;
+                padding: 0 10px;
+                &:hover{
+                    transform: scale(1.2,1.2);}
+            }
+        }
+        .Pollo_Logo_Caja{
+            width: 130px;
+            left: 5%;
+            top: 10%;
+            position: absolute;
+            .Pollo_Logo{
+                width: 200px;
+                left: 15px;}
+        }
+    }
+}

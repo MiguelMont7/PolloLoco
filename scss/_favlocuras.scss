@@ -1,0 +1,78 @@
+.Favoritos{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    .Texto_Favoritos{
+        background-color: $Barra_Color_Fondo;
+        color: $Barra_Color_Texto;
+        width: 95%;
+        margin: 0 auto;
+        border-radius: $Barra_Radio;
+        text-align: center;
+        transition: .5s;
+        margin-bottom: 1rem;
+        &:hover{
+            transform: scale(1.05);}
+    }
+    .Tabla_Favoritos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "Tabla_Favoritos_Pollo Tabla_Favoritos_Quesadillas"
+        "Tabla_Favoritos_Papa Tabla_Favoritos_Frijoles"
+        "Tabla_Favoritos_Spaghetti Tabla_Favoritos_Arroz"; 
+        row-gap: 2rem;
+        .Imagenes_Inicio{
+            opacity: .8;
+            width: $ancho_imagenes*3;
+            height: $alto_imagenes*9;
+            transition: .5s;
+            border-radius: $radio_imagenes;
+            &:hover{
+                opacity: 1;
+                transform: scale(1.05,1.05);
+                border-radius: 1%;}
+        }
+    }
+}
+.Proximas_Locuras{
+    text-align: center;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    .Nuestras_Proximas_Locuras{
+        background-color: $Barra_Color_Fondo;
+        color: $Barra_Color_Texto;
+        width: 95%;
+        margin: 0 auto;
+        transition: 0.5s;
+        border-radius: $Barra_Radio;
+        margin-bottom: 1rem;
+        &:hover{
+            transform: scale(1.05);}
+    }
+    .Tabla_Locuras{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "Tabla_Locuras_Hamburguesa"
+        "Tabla_Locuras_Carne"
+        "Tabla_Locuras_Alitas";
+        row-gap: 2rem;
+        .Imagenes_Locuras{
+            opacity: .8;
+            width: $ancho_imagenes*4;
+            height: $alto_imagenes*9;
+            border-radius: $radio_imagenes;
+            &:hover{
+                opacity: 1;
+                transform: scale(1.05,1.05);
+                border-radius: 1%;
+            }
+        }
+    }
+}

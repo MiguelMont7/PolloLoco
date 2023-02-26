@@ -1,0 +1,21 @@
+.Texto_Inicial{
+    text-align: center;
+    padding: 5.5rem 0 0.5rem 0;
+    h1{
+        font-size: $Letra_h1;
+        padding: 0.6rem;
+        margin: 0 auto;
+        width: 100%;
+        font-weight: bold;
+        transition: 0.5s;
+        text-align: center;
+        width: 100%;
+        &:hover{
+            transform: scale(1.05);}
+    }
+    p{
+        font-size: $Letra_p;
+        padding: 0.4rem;
+        line-height: 1.2;
+        margin: 0;}
+}

@@ -1,0 +1,42 @@
+.Texto_Nuestras_Sucursales{
+    background-color: $Barra_Color_Fondo;
+    color: $Barra_Color_Texto;
+    width: 95%;
+    margin: 0 auto;
+    transition: 0.5s;
+    border-radius: $Barra_Radio;
+    &:hover{
+        transform: scale(1.05);}
+}
+.Tabla_Sucursal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    margin: 30px auto;
+    padding: 5px 0;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    .Titulo_Sucursales{
+        padding-top: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+    }
+    .Mapas{
+        width: 60%;
+        .frame{
+            border-radius: 20px;
+            padding: 0 20px;
+        }
+    }
+    .Tabla_Sucursal_Texto{
+        width: 40%;
+        text-align: justify;
+        align-items: center;
+        padding-right: 60px;
+        margin: auto 0;
+    }
+}

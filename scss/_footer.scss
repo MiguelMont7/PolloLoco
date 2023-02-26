@@ -1,0 +1,183 @@
+.Footer_Publicidad_Cuadro{
+    height: 40vh;
+    margin:0 auto;
+    background-color: #EC2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2   rem;
+    .Footer_Publicidad_Imagen{
+        width: 360px;
+        align-items: end;
+        .Logo_Publicidad{
+            width: 265px;
+            transition: 0.5s;
+            align-items: flex-end;
+            &:hover{
+                transform: scale(1.05,1.05);}
+        }
+    }
+}
+.Footer_Publicidad{
+    .Footer_Publicidad_Link{
+        list-style: none;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3{
+            padding-bottom: 1.5rem;
+        }
+        .Botones_Pedidos{
+            display: flex;
+            .Rappi,
+            .Didi,
+            .Uber{
+                transition: 0.5s;
+                padding: 0 10px;
+                &:hover{
+                    transform: scale(1.1,1.1);}
+            }
+        }
+    }
+}
+.Footer_Principal{
+    width: 100%;
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    ul{
+        list-style: none;
+        display: flex;
+        align-content: space-around;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+    }
+    .Pollo_Logo_Footer_Box{
+        width: 50%;
+        .Pollo_Logo_Footer{
+            width: 100%;
+            align-items: center;
+        }
+    }
+    .Footer_Principal_Links_1{
+        width: 800px;
+        ul{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-content: space-around;
+            justify-content: space-around;
+            a{
+                color: white;
+                font-size: 1.2rem;
+                font-weight: bold;
+                text-decoration: none;
+                &:hover{
+                    color: rgb(255, 255, 0);
+                    text-decoration: underline;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    .Footer_Principal_Links_2{
+        width: 800px;
+        ul{
+            display: flex;
+            flex-direction: column; 
+            text-align: center; 
+            a{
+                color: white;
+                font-size: 1.2rem;
+                font-weight: bold;
+                text-decoration: none;
+                &:hover{
+                    color: rgb(255, 255, 0);
+                    text-decoration: underline;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    .Footer_Principal_Llamanos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        .Llamanos_Amarillo{
+            color: yellow;
+            font-weight: bold;}
+        a,
+        ul{
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .Menu_Redes_Footer{
+            width: 40%;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 70%;
+                justify-items: center;
+                align-items: center;
+                transition: 0.5s;
+                &:hover{
+                    transform: scale(1.2,1.2);
+                }
+            }
+        }
+        .Footer_Formulario{
+            display: flex;
+            padding: 0;
+            align-content: center;
+            input{
+                border: 0;
+                text-align: center;
+                padding: 5px;
+                border-radius: 10px;
+            }
+            button{
+                background-color: rgba(241, 7, 7, 0.966);
+                border: 0;
+                color: whitesmoke;
+                border-radius: 30px;
+                padding: 5px;
+            }
+        }
+    }
+}
+.Footer_Derechos{
+    text-align: center;
+    font-size: small;
+}
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    .my-float{
+        margin-top:16px;
+    }
+    &:hover{
+        text-decoration: none;
+        color: #25d366;
+        background-color:#fff;
+    }
+}

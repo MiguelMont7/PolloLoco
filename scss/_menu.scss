@@ -1,0 +1,20 @@
+.Menu{
+    .Amados_Siempre_Menu{
+        background-color: $Barra_Color_Fondo;
+        color: $Barra_Color_Texto;
+        width: 95%;
+        margin: 0 auto;
+        transition: 0.5s;
+        border-radius: $Barra_Radio;
+        &:hover{
+            transform: scale(1.05);}
+    }
+    .Tabla_Menu{
+        padding-bottom: 2rem;
+        width: 100%;
+        .Tabla_Menu_Izq{
+            @include menus (95%, 60%, 40%, 90%);}
+        .Tabla_Menu_Der{
+            @include menus (95%, 55%, 45%, 80%);}
+    }
+}

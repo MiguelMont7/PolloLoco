@@ -1,0 +1,62 @@
+.Banner_Historia{
+    opacity: .8;
+    width: 100%;
+    margin-bottom: 10px;
+    &:hover{
+        opacity: 1;
+    }
+}
+.Historia_Texto_Inicial{
+    background-color: $Barra_Color_Fondo;
+    color: $Barra_Color_Texto;
+    width: 95%;
+    margin: 0 auto;
+    transition: 0.5s;
+    border-radius: $Barra_Radio;
+    &:hover{
+        transform: scale(1.05);}
+}
+.Tabla_Historia_Der{
+    margin: 10px auto;
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    .Imagenes_Historia{
+        opacity: .8;
+        width: $ancho_imagenes*3;
+        height: $alto_imagenes*9;
+        transition: .5s;
+        border-radius: $radio_imagenes;
+        &:hover{
+            opacity: 1;
+            transform: scale(1.05,1.05);
+            border-radius: 1%;
+        }
+    }
+    .Texto_Historia{
+        text-align: center;
+        width: 80%;
+    }
+}
+.Tabla_Historia_Izq{
+    margin: 10px auto;
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    .Imagenes_Historia{
+        opacity: .8;
+        width: $ancho_imagenes*3;
+        height: $alto_imagenes*9;
+        transition: .5s;
+        border-radius: $radio_imagenes;
+        &:hover{
+            opacity: 1;
+            transform: scale(1.05,1.05);
+            border-radius: 1%;
+        }
+    }
+    .Texto_Historia{
+        text-align: center;
+        width: 80%;
+    }
+}
