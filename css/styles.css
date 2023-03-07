@@ -26,7 +26,7 @@ h3 {
   padding: 0.4rem; }
 
 h4 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   padding: 0.4rem; }
 
 p {
@@ -183,7 +183,7 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 95%;
+    width: 90%;
     flex-wrap: nowrap;
     margin: 0 auto; }
     .Menu .Tabla_Menu .Tabla_Menu_Izq .Imagen_Menu {
@@ -200,17 +200,19 @@ p {
           border-radius: 1%; }
     .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto {
       text-align: center;
-      width: 40%; }
+      width: 45%; }
       .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Texto_Media {
         width: 90%;
         margin: 0 auto; }
+        .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Texto_Media h3 {
+          font-weight: bold; }
       .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios {
-        padding-top: 50px; }
+        padding-top: 30px; }
         .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios .Precios {
           font-size: x-large;
           font-weight: bold;
           color: gray;
-          padding-bottom: 50px; }
+          padding-bottom: 15px; }
         .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios .Cantidad_Pedido {
           width: 100%;
           padding: 0.5rem; }
@@ -219,7 +221,7 @@ p {
             text-align: center;
             border-color: gray;
             border-radius: 30px;
-            width: 20%; }
+            width: 22%; }
             .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios .Cantidad_Pedido input:hover {
               transform: scale(1.05, 1.05); }
           .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios .Cantidad_Pedido button {
@@ -228,16 +230,19 @@ p {
             padding: 7px;
             color: whitesmoke;
             border-radius: 30px;
+            width: 35%;
             transition: 0.5s; }
             .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios .Cantidad_Pedido button:hover {
               transform: scale(1.1, 1.1); }
+          .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios .Cantidad_Pedido ::placeholder {
+            font-size: medium; }
   .Menu .Tabla_Menu .Tabla_Menu_Der {
     padding-top: 1rem;
     padding-bottom: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 95%;
+    width: 90%;
     flex-wrap: nowrap;
     margin: 0 auto; }
     .Menu .Tabla_Menu .Tabla_Menu_Der .Imagen_Menu {
@@ -254,17 +259,19 @@ p {
           border-radius: 1%; }
     .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto {
       text-align: center;
-      width: 45%; }
+      width: 50%; }
       .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Texto_Media {
         width: 80%;
         margin: 0 auto; }
+        .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Texto_Media h3 {
+          font-weight: bold; }
       .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Formulario_Precios {
-        padding-top: 50px; }
+        padding-top: 30px; }
         .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Formulario_Precios .Precios {
           font-size: x-large;
           font-weight: bold;
           color: gray;
-          padding-bottom: 50px; }
+          padding-bottom: 15px; }
         .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Formulario_Precios .Cantidad_Pedido {
           width: 100%;
           padding: 0.5rem; }
@@ -273,7 +280,7 @@ p {
             text-align: center;
             border-color: gray;
             border-radius: 30px;
-            width: 20%; }
+            width: 22%; }
             .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Formulario_Precios .Cantidad_Pedido input:hover {
               transform: scale(1.05, 1.05); }
           .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Formulario_Precios .Cantidad_Pedido button {
@@ -282,9 +289,12 @@ p {
             padding: 7px;
             color: whitesmoke;
             border-radius: 30px;
+            width: 35%;
             transition: 0.5s; }
             .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Formulario_Precios .Cantidad_Pedido button:hover {
               transform: scale(1.1, 1.1); }
+          .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Formulario_Precios .Cantidad_Pedido ::placeholder {
+            font-size: medium; }
 
 .Texto_Nuestras_Sucursales {
   background-color: #EC2127;
@@ -306,7 +316,8 @@ p {
   padding: 5px 0;
   padding-bottom: 20px;
   border-radius: 20px;
-  justify-content: center; }
+  justify-content: center;
+  text-align: center; }
   .Tabla_Sucursal .Titulo_Sucursales {
     padding-top: 20px;
     text-align: center;
@@ -315,14 +326,14 @@ p {
   .Tabla_Sucursal .Mapas {
     width: 60%; }
     .Tabla_Sucursal .Mapas .frame {
-      border-radius: 20px;
+      border-radius: 50px;
       padding: 0 20px; }
   .Tabla_Sucursal .Tabla_Sucursal_Texto {
-    width: 40%;
-    text-align: justify;
+    width: 30%;
+    text-align: center;
     align-items: center;
-    padding-right: 60px;
-    margin: auto 0; }
+    margin: auto 0;
+    justify-content: center; }
 
 .Formulario_Contacto {
   opacity: .8;
@@ -348,7 +359,8 @@ p {
       transform: scale(1.05, 1.05); }
     .Formulario_Contacto .Formulario form {
       margin: 0;
-      padding: 10px; }
+      padding: 10px;
+      font-weight: bold; }
       .Formulario_Contacto .Formulario form button,
       .Formulario_Contacto .Formulario form input,
       .Formulario_Contacto .Formulario form textarea {
@@ -357,7 +369,9 @@ p {
         border: none;
         background-color: aliceblue;
         border-bottom: 1px solid #fdfdfd;
-        outline: 0; }
+        outline: 0;
+        border-radius: 20px;
+        text-align: center; }
       .Formulario_Contacto .Formulario form button {
         background-color: green;
         border: 0;
@@ -388,7 +402,8 @@ p {
       transform: scale(1.05, 1.05); }
     .Formulario_Equipo .Formulario form {
       margin: 0;
-      padding: 10px; }
+      padding: 10px;
+      font-weight: bold; }
       .Formulario_Equipo .Formulario form button,
       .Formulario_Equipo .Formulario form input,
       .Formulario_Equipo .Formulario form textarea {
@@ -397,7 +412,9 @@ p {
         border: none;
         background-color: aliceblue;
         border-bottom: 1px solid #fdfdfd;
-        outline: 0; }
+        outline: 0;
+        border-radius: 20px;
+        text-align: center; }
       .Formulario_Equipo .Formulario form button {
         background-color: green;
         border: 0;
@@ -529,13 +546,17 @@ p {
         border: 0;
         text-align: center;
         padding: 5px;
-        border-radius: 10px; }
+        border-radius: 30px;
+        font-size: medium;
+        width: 220px; }
       .Footer_Principal .Footer_Principal_Llamanos .Footer_Formulario button {
         background-color: rgba(241, 7, 7, 0.966);
         border: 0;
         color: whitesmoke;
         border-radius: 30px;
-        padding: 5px; }
+        padding: 5px;
+        font-size: medium;
+        width: 180px; }
 
 .Footer_Derechos {
   text-align: center;
@@ -546,7 +567,7 @@ p {
   width: 60px;
   height: 60px;
   bottom: 40px;
-  right: 40px;
+  right: 50px;
   background-color: #25d366;
   color: #FFF;
   border-radius: 50px;
@@ -595,7 +616,9 @@ p {
       border-radius: 1%; }
   .Tabla_Historia_Der .Texto_Historia {
     text-align: center;
-    width: 80%; }
+    width: 80%;
+    align-items: center;
+    justify-content: center; }
 
 .Tabla_Historia_Izq {
   margin: 10px auto;
@@ -939,20 +962,25 @@ p {
           width: 50%;
           padding-top: 5px; }
           .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios .Precios {
+            padding-top: .5rem;
             font-size: medium;
             font-weight: bold;
             color: gray;
             padding-bottom: 10px; }
           .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios .Cantidad_Pedido {
             width: 100%;
-            padding: 0.5rem; }
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center; }
             .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios .Cantidad_Pedido input {
               padding: 7px;
               text-align: center;
               border-color: gray;
               border-radius: 30px;
-              width: 60px;
-              margin-bottom: 10px; }
+              width: 65px;
+              margin-bottom: 10px;
+              font-size: x-small; }
               .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios .Cantidad_Pedido input:hover {
                 transform: scale(1.05, 1.05); }
             .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios .Cantidad_Pedido button {
@@ -961,7 +989,8 @@ p {
               padding: 7px;
               color: whitesmoke;
               border-radius: 30px;
-              transition: 0.5s; }
+              transition: 0.5s;
+              width: 90px; }
               .Menu .Tabla_Menu .Tabla_Menu_Izq .Menu_Texto .Formulario_Precios .Cantidad_Pedido button:hover {
                 transform: scale(1.1, 1.1); }
     .Menu .Tabla_Menu .Tabla_Menu_Der {
@@ -999,20 +1028,25 @@ p {
           width: 50%;
           padding-top: 5px; }
           .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Formulario_Precios .Precios {
+            padding-top: .5rem;
             font-size: medium;
             font-weight: bold;
             color: gray;
             padding-bottom: 10px; }
           .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Formulario_Precios .Cantidad_Pedido {
             width: 100%;
-            padding: 0.5rem; }
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center; }
             .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Formulario_Precios .Cantidad_Pedido input {
               padding: 7px;
               text-align: center;
               border-color: gray;
               border-radius: 30px;
-              width: 60px;
-              margin-bottom: 10px; }
+              width: 65px;
+              margin-bottom: 10px;
+              font-size: x-small; }
               .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Formulario_Precios .Cantidad_Pedido input:hover {
                 transform: scale(1.05, 1.05); }
             .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Formulario_Precios .Cantidad_Pedido button {
@@ -1021,7 +1055,8 @@ p {
               padding: 7px;
               color: whitesmoke;
               border-radius: 30px;
-              transition: 0.5s; }
+              transition: 0.5s;
+              width: 90px; }
               .Menu .Tabla_Menu .Tabla_Menu_Der .Menu_Texto .Formulario_Precios .Cantidad_Pedido button:hover {
                 transform: scale(1.1, 1.1); }
   /*/ Sucursal.html /*/
@@ -1098,7 +1133,7 @@ p {
     justify-content: center;
     position: relative;
     font-weight: bold;
-    background-image: url(../img/Contacto.png);
+    background-image: url(../img/Equipo_Trabajo.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;

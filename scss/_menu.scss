@@ -13,8 +13,8 @@
         padding-bottom: 2rem;
         width: 100%;
         .Tabla_Menu_Izq{
-            @include menus (95%, 60%, 40%, 90%);}
+            @include menus (90%, 60%, 45%, 90%);}
         .Tabla_Menu_Der{
-            @include menus (95%, 55%, 45%, 80%);}
+            @include menus (90%, 55%, 50%, 80%);}
     }
 }

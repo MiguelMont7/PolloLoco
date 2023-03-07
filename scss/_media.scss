@@ -382,6 +382,7 @@
                         width: 50%;
                         padding-top: 5px;
                         .Precios{
+                            padding-top: .5rem;
                             font-size: medium;
                             font-weight: bold;
                             color: gray;
@@ -390,13 +391,17 @@
                         .Cantidad_Pedido{
                             width: 100%;
                             padding: 0.5rem;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
                             input{
                                 padding: 7px;
                                 text-align: center;
                                 border-color: gray;
                                 border-radius: 30px;
-                                width: 60px;
+                                width: 65px;
                                 margin-bottom: 10px;
+                                font-size: x-small;
                                 &:hover{
                                     transform: scale(1.05,1.05);}
                             }
@@ -407,6 +412,7 @@
                                 color: whitesmoke;
                                 border-radius: 30px;
                                 transition: 0.5s;
+                                width: 90px;
                                 &:hover{
                                     transform: scale(1.1,1.1);}
                             }
@@ -452,6 +458,7 @@
                         width: 50%;
                         padding-top: 5px;
                         .Precios{
+                            padding-top: .5rem;
                             font-size: medium;
                             font-weight: bold;
                             color: gray;
@@ -460,13 +467,17 @@
                         .Cantidad_Pedido{
                             width: 100%;
                             padding: 0.5rem;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
                             input{
                                 padding: 7px;
                                 text-align: center;
                                 border-color: gray;
                                 border-radius: 30px;
-                                width: 60px;
+                                width: 65px;
                                 margin-bottom: 10px;
+                                font-size: x-small;
                                 &:hover{
                                     transform: scale(1.05,1.05);}
                             }
@@ -477,6 +488,7 @@
                                 color: whitesmoke;
                                 border-radius: 30px;
                                 transition: 0.5s;
+                                width: 90px;
                                 &:hover{
                                     transform: scale(1.1,1.1);}
                             }
@@ -570,7 +582,7 @@
         justify-content: center;
         position: relative;
         font-weight: bold;
-        background-image: url(../img/Contacto.png);
+        background-image: url(../img/Equipo_Trabajo.png);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
