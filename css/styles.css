@@ -867,7 +867,7 @@ p {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 0; }
+      padding: 0 auto; }
       .Footer_Principal .Footer_Principal_Llamanos .Llamanos_Amarillo {
         color: yellow;
         font-weight: bold; }
@@ -888,19 +888,26 @@ p {
             transform: scale(1.2, 1.2); }
       .Footer_Principal .Footer_Principal_Llamanos .Footer_Formulario {
         display: flex;
-        padding: 0;
-        align-content: center; }
-        .Footer_Principal .Footer_Principal_Llamanos .Footer_Formulario input {
-          border: 0;
-          text-align: center;
-          padding: 5px;
-          border-radius: 10px; }
-        .Footer_Principal .Footer_Principal_Llamanos .Footer_Formulario button {
-          background-color: rgba(241, 7, 7, 0.966);
-          border: 0;
-          color: whitesmoke;
-          border-radius: 30px;
-          padding: 5px; }
+        margin: 0 auto;
+        flex-direction: column;
+        justify-items: center; }
+        .Footer_Principal .Footer_Principal_Llamanos .Footer_Formulario P {
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: column; }
+          .Footer_Principal .Footer_Principal_Llamanos .Footer_Formulario P input {
+            border: 0;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+            margin-bottom: 5px; }
+          .Footer_Principal .Footer_Principal_Llamanos .Footer_Formulario P button {
+            background-color: rgba(241, 7, 7, 0.966);
+            border: 0;
+            color: whitesmoke;
+            border-radius: 30px;
+            padding: 5px; }
   .Footer_Derechos {
     text-align: center;
     font-size: small; }
